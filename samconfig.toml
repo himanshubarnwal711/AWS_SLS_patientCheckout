@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "patientcheckout"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-g8gtibybmgqv"
+s3_prefix = "patientcheckout"
+region = "ap-south-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
+confirm_changeset = true
+parameter_overrides = "PatientCheckoutBucketName=\"himanshu711veerappanpatientcheckout\""
